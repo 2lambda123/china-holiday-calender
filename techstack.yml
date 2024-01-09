@@ -1,0 +1,32 @@
+repo_name: 2lambda123/china-holiday-calender
+report_id: 3a1aefc80a3b3b68f5eccd039009202f
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:55:37+00:00'
+requested_by: lanceliao
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/china-holiday-calender
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/china-holiday-calender/blob/master/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: Lance Liao
+  last_updated_on: 2023-04-26 18:14:17.000000000 Z
